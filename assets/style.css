@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #2c3384;
+    padding-bottom: 1rem;
+}
+
+
+h1#tituloDaPagina {
+    color: #e7e3f2;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.subtitulos {
+    color: #7a4676;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+p#primeiroParagrafo {
+    margin-bottom: 4rem;
+    color: #000;
+    font-size: 1.1rem;
+}
+
+section#newSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+h3#tipo{
+    color: #7a4676;
+    margin: 0 0 3rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+p#contexto{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+div#botao button {
+    background-color: #7a4676;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: 500;
+    border-radius: 3rem;
+    transition: all .5s ease-out;
+    cursor: pointer;
+}
+
+div#botao button:hover {
+    transform:scale(1.2)
+}
+
+div#botao {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #f6f1f7;
+    background-size: 100%;
+}
+
+main {
+    margin: 2rem 5rem 2rem 5rem;
+    height: 90%;
+}
+
+header img {
+    width: 100%;
+}
+
+footer {
+    background-color: #2c3384; 
+    padding: 1.5rem;
+    color: #e7e3f2;
+    text-align: start;
+    font-size: 0.8rem;
+    margin-top: 5rem;
+    
+}
