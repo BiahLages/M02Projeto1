@@ -69,6 +69,10 @@ div#botao {
     justify-content: center;
 }
 
+section#newSection div#img img{
+    width: 30vw;
+}
+
 body {
     background-color: #f6f1f7;
     background-size: 100%;
